@@ -1,0 +1,77 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 14px;
+}
+
+.body {
+  font-size: 14px;
+  padding: 20px;
+}
+
+.filter {
+  margin: 0 8%;
+}
+
+.filter-btn {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7%;
+}
+
+.res-card {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 5px;
+  transform: scale(0.9);
+}
+
+.res-image img {
+  height: 210px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 0.5px solid rgb(128, 128, 128);
+}
+
+.res-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.res-rating {
+  color: green;
+}
+
+.res-cuisines,
+.res-time {
+  color: rgb(85, 84, 84);
+}
