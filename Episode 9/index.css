@@ -1,0 +1,139 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 14px;
+}
+
+.body {
+  font-size: 14px;
+  padding: 20px;
+}
+
+.filter {
+  margin: 0 8%;
+}
+
+.filter-btn {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7%;
+}
+
+.res-card {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 5px;
+  transform: scale(0.9);
+}
+
+.res-image img {
+  height: 210px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 0.5px solid rgb(128, 128, 128);
+}
+
+.res-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.res-rating {
+  color: green;
+}
+
+.res-cuisines,
+.res-time {
+  color: rgb(85, 84, 84);
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7%;
+}
+
+.shimmer-card {
+  height: 260px;
+  width: 260px;
+  background-color: rgba(198, 197, 197, 0.242);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.login {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.search {
+  margin-left: 20px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.search-btn {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.res-menu-container {
+  margin: 0 30%;
+}
+
+.menu-card {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgb(128, 128, 128);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-card div img {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.about {
+  padding: 20px;
+}
+
+.user-card {
+  padding: 10px;
+  border: 0.5px solid rgb(128, 128, 128);
+  border-radius: 10px;
+}

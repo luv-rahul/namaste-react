@@ -1,0 +1,28 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React course taught by Akshay Saini",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "JavaScript",
+    "React",
+    "JS"
+  ],
+  "author": "Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
